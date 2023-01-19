@@ -1,0 +1,37 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+  width: 70%;
+  margin: 0 auto;
+}
+ul li {
+  margin: 1rem 0;
+  padding: 1rem;
+  color: white;
+  transition: 0.25s all ease;
+}
+ul li:hover {
+  color: darkorange;
+}
+
+ul li:first-child {
+  border-bottom: 1px solid darkorange;
+  margin-right: auto;
+}
+ul li:first-child:hover {
+  border-bottom: 1px solid transparent;
+}
+ul li a {
+  color: inherit;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+section {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  margin-top: 1rem;
+}

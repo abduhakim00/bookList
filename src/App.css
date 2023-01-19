@@ -3,21 +3,28 @@
   background-image: url("../public/124383.jpg");
   object-fit: contain;
   height: 100vh;
-  display: flex;
+  /* display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
+  position: relative;
 }
 .overlay {
   background-color: black;
   opacity: 0.4;
+  position: absolute;
   height: 100vh;
   width: 100%;
-  position: absolute;
 }
 button {
-  background-color: black; /* Green */
-  border: none;
-  opacity: 0.7;
+  background-color: rgba(0, 0, 0, 0.7); /* Green */
+  width: 400px;
+  height: 80px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
   cursor: pointer;
   color: orange;
   padding: 15px 32px;
@@ -31,4 +38,8 @@ button {
 button:hover {
   border-bottom: solid 1px orange;
   color: white;
+}
+.nav {
+  position: absolute;
+  top: 0;
 }
